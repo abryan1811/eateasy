@@ -1,0 +1,169 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url('/media/salad.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+}
+
+/* Home Page */
+
+.home-welcome {  
+  position: relative;
+  right:140px;
+}
+
+.subtitle {  
+    font-size:40px;  
+    color: green;
+    font-weight:bold;
+}
+
+.better-you-button {
+    background-color: green;
+    color:white;
+}
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+  .home-welcome {
+  right:40px;
+  top:600px;
+}
+
+.subtitle {  
+    font-size:30px; 
+}
+
+}
+
+@media (max-width: 768px) {
+  .home-welcome {
+  right:40px;
+  top:440px;
+}
+
+.subtitle {  
+    font-size:25px; 
+}
+
+}
+
+@media (max-width: 548px) {
+  .home-welcome {
+  right:0px;
+  top:310px;
+}
+
+.subtitle {  
+    font-size:15px; 
+}
+
+.better-you-button {
+    font-size:10px;
+    position: fixed;
+    bottom:40px;
+}
+
+}
+
+@media (max-width: 414px) {
+      .home-welcome {
+  right:0px;
+  height:10px;
+  top:248px;
+}
+
+.subtitle {  
+    font-size:15px; 
+}
+
+.better-you-button {
+    font-size:10px;
+    position: fixed;
+    bottom:40px;
+}
+
+}
+
+@media (max-width: 411px) {
+      .home-welcome {
+  right:0px;
+  height:10px;
+  top:268px;
+}
+
+.subtitle {  
+    font-size:15px; 
+}
+
+.better-you-button {
+    font-size:10px;
+    position: fixed;
+    bottom:40px;
+}
+
+}
+
+@media (max-width: 375px) {
+      .home-welcome {
+  right:0px;
+  height:0px;
+  top:230px;
+}
+
+.subtitle {  
+    font-size:13px; 
+}
+
+.better-you-button {
+    font-size:10px;
+    position: relative;
+    bottom:40px;
+}
+
+}
+
+@media (max-width: 280px) {
+      .home-welcome {
+  right:0px;
+  height:0px;
+  top:430px;
+}
+
+.subtitle {  
+    font-size:13px; 
+}
+
+.better-you-button {
+    font-size:10px;
+    position: relative;
+    bottom:40px;
+}
+
+}
+
+@media (max-width: 320px) {
+      .home-welcome {
+  right:0px;
+  height:0px;
+  top:200px;
+}
+
+.subtitle {  
+    font-size:10px; 
+}
+
+.better-you-button {
+    font-size:8px;
+    position: relative;
+    bottom:40px;
+}
+
+}
+
+
+

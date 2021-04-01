@@ -2,5 +2,18 @@
 {% load static %}
 
 {% block content %}
-<h1 class="text-danger" body="red">Initial set up</h1>
+<div class="container h-100">
+    <div class="row h-100">
+        <div class="col-5 col-md-6 col-sm-3 text-center flex my-auto home-welcome">
+            <h1 class="subtitle display-6 font-weight-bold">
+                Plan your meals, <br>
+                keep your food intake in check, <br>
+                and become a better you!
+            </h1>
+            <div class="my-5">
+                <a href="{% url 'account_signup' %}" class="better-you-button btn btn-lg rounded-0 text-uppercase py-3">find your better you, here</a>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
